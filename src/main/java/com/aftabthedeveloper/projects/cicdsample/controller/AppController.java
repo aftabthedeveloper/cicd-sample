@@ -14,4 +14,9 @@ public class AppController {
     public String info(){
         return "This is a CI/CD Sample application";
     }
+
+    @GetMapping("name")
+    public String appName(){
+        return "CI/CD Sample";
+    }
 }
