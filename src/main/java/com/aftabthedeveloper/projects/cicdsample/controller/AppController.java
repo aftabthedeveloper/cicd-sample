@@ -17,6 +17,6 @@ public class AppController {
 
     @GetMapping("name")
     public String appName(){
-        return "CI/CD Sample";
+        return "CI/CD Sample Project";
     }
 }
